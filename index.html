@@ -1,60 +1,193 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="css/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
-	<div>
-		
-		<h1>✨Hello, I'm Valentine✨</h1>
-		<img src="image.jpeg">
+	<nav class="navbar navbar-expand-lg bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="#">SAFE ME UP</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">CART</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">On the way</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">On the stay</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">On the dancefloor</a>
+					</li>
 
+					
+				</ul>
+				<form class="d-flex" role="search">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-dark" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
 
-		<p>I love cooking, reading and doing Pilats.</p>
-		<a class="btn-brown" href="https://www.linkedin.com/in/valentine-berry-digital-marketing/">Linkedin</a>
-	</div>
-
-	<div>
-		<h2>Cooking 🍲</h2>
-		<p> I cook everydays and my signature meal is bò bún. </p>
-	</div>
-	
-	<div>
-		<h2>Reading 📚</h3>
-		<p>My favorite type of book is detective novels.</p>
-	</div>
-	
-	<div>
-		<h2>Pilats 💪</h4>
-		<p> I am doing Pilats 2/3 days per week.</p>
-	</div>
-
-		
-	<div>
-	<h2>Follow me</h2>
-		<a href="https://instagram.com/valentine.ber?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
-		<a href="https://www.linkedin.com/in/valentine-berry-digital-marketing/"><i class="fa-brands fa-linkedin"></i></a>
-</div>
-	
 	<div class="banner">
-	<h1> Become developper </h1>
-	<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Repellendus laboriosam enim dolore libero, aperiam. Aliquid voluptatibus, explicabo iure doloremque suscipit. Dicta expedita ea possimus, laboriosam error animi saepe quod cumque.</p>
-	<a class= "button-brown" href="https://www.lewagon.com/fr/marseille">Discover the wagon</a>
+		<h2>Stay safe items
+			<br>for brilliant minds and adventurous souls</h2>
+
+		</div>
+		
+		<div class="container">
+			<h3>Bestseller</h3>
+			<p id="explanatory-text">Discover our biggest succes!</p>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="https://cdn.shopify.com/s/files/1/2705/1366/files/pom-pepper-spray-spraying_1800x.jpg?v=1624995233" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Pepper spray</h5>
+							<p>from 5€ to 15€</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://i.bosity.com/product_img/268/72029241/72029241_8_image.jpg?x-oss-process=image/resize,p_100/watermark,image_d2F0ZXJtYXJrX2ltZy8xNzExMTQwOC9kZWZhdWx0LnBuZz94LW9zcy1wcm9jZXNzPWltYWdlL3Jlc2l6ZSxQXzk5,g_nw,x_0,y_0" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Safe Lock</h5>
+							<p>from 15€ to 30€</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="https://cdn.shopify.com/s/files/1/0565/1768/9459/files/D77376CC-35F6-47F5-9105-D7BBAE0F3FED.jpg?v=1657291974&width=1500" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+							<h5>Cup Condom</h5>
+							<p>from 10€ to 15€</p>
+						</div>
+					</div>
+				</div>
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+
+		</div>
+
+		<h3>Categories</h3>
+		<p id="explanatory-text">Safe me up... before you go go!</p>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-4">
+					<div class="card" >
+						<img src="https://images.unsplash.com/photo-1535268244390-8b989b92d2bc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="card-img-left-side" alt="girls-on-the-bed">
+						<div class="card-body">
+							<h2 class="card-title">On the stay</h2>
+							<p class="card-text">Not sure if your hotel is safe ? Felling observed ? Discover our "on the stay" category, gathering safe locks, lights to detect cameras and many more! Making you feel safe anytime is our priority and duty.</p>
+							<a href="#" target="_blank" class="btn btn-dark">Discover our products</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card" >
+						<img src="https://images.unsplash.com/photo-1530172888244-f3520bbeaa55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" class="card-img-left-side" alt="girl-on-the-street">
+						<div class="card-body">
+							<h2 class="card-title">On the way</h2>
+							<p class="card-text">Whenever you are out, walking or running and not feeling safe, you can use our self-defense products to keep your mind and your body safe. Discover a wide range of accessible and easy-to-use products.</p>
+							<a href="#" target="_blank" class="btn btn-dark">Discover our products</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-4">
+					<div class="card" >
+						<img src="https://images.unsplash.com/photo-1602123162984-ef1527d860d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" class="card-img-left-side" alt="girls-with-disco-ball">
+						<div class="card-body">
+							<h2 class="card-title">On the dance floor</h2>
+							<p class="card-text">Make the most of your party with some party safe items. Make sure your drink is safe to drink and go home safely, even alone ! Discover a wide range of accessible and easy-to-use products.</p>
+							<a href="#" target="_blank" class="btn btn-dark">Discover our products</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="space">
+		</div>
+
+		<div class="container">
+			<h3>💥 How to kick back? 💥</h3>
+			<p id="explanatory-text">Here are a few ideas to reply in case of unwelcomed messages. Feel free to copy/paste them, to be creative and impactful!</p>
+			<div class="row">
+				<div class="col-3">
+					<div class="card-messages" >
+						<h2 class="card-title-messages">Unsolicited dick-pick</h2>
+						<p class="card-text">An image you sent has been scanned by our AI Bot and was flagged as an unsolicited picture. Your account is scheduled to be reported to the police. You will be contacted by your local authorities within 24hrs.</p>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card-messages" >
+						<h2 class="card-title-messages">Spam message</h2>
+						<p class="card-text">You will now start receiving messages from Daily Gospel. You will be charged P5 for every text. To stop this service, text STOP.</p>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card-messages">
+						<h2 class="card-title-messages">Sugar daddy</h2>
+						<p class="card-text">Your job offer has been well received. Unfortunately, I am already employed full time and won't be able to fill your request. Best regards, XOXO.</p>
+					</div>
+				</div>
+
+				<div class="col-3">
+					<div class="card-messages" >
+						<h2 class="card-title-messages">Cyber harassment</h2>
+						<p class="card-text">You’re message has been well received. As consequences or your action, Karma has been contacted and will hit back under 24 or 48h.</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="space-bis">
+		</div>
+		
+		<div class="ending-banner">
+			<h2> 👉 Follow Safe me up 👈 </h2>
+			<div class="social-media">
+				<a class="social" href="#"target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+				<a class="social" href="#"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+				<a class="social" href="#"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+			</div>
 
 
-	</div>
-</div>
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
+		</body>
+		</html>
 
-</body>
-
-</html>

@@ -1,0 +1,64 @@
+
+.container{
+	align-items: center|flex-start|space-around; 
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.div.col-4{
+	align-items: center
+	justify-content: middle;
+}
+
+.card-body{
+	text-align: center;
+	height: 260px;
+}
+
+.card-img-left-side{
+	height: 300px;
+	object-fit: cover;
+	border-radius: 20px;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.btn-btn-primary{
+	color: success;
+}
+
+.card{
+	border-radius: 20px !important;
+	box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+
+#explanatory-text{
+	margin-bottom: 40px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.card-messages{
+	text-align: center;
+	height: 230px;
+	border: 1px solid;
+	border-color: #d2d2d2;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card-title-messages{
+	font-size: 25px;
+	margin-bottom: 15px;
+	color: #F19571;
+}
+
+
+.space{
+	height: 1px;
+}
+
+.space-bis{
+	height: 15px;
+}
